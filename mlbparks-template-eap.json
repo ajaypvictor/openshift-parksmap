@@ -124,7 +124,7 @@
                "sourceStrategy": {
                   "from": {
                      "kind": "ImageStreamTag",
-                     "namespace": "openshift",
+                     "namespace": "default",
                      "name": "jboss-eap73-openj9-openshift:7.3"
                   },
                   "env": [
@@ -178,7 +178,7 @@
                      ],
                      "from": {
                         "kind": "ImageStreamTag",
-                        "namespace": "openshift",
+                        "namespace": "default",
                         "name": "mongo:latest"
                      }
                   }
