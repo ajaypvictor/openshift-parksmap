@@ -179,7 +179,7 @@
                      "from": {
                         "kind": "ImageStreamTag",
                         "namespace": "default",
-                        "name": "mongo:latest"
+                        "name": "mongodb-36-rhel7:latest"
                      }
                   }
                },
